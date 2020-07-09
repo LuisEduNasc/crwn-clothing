@@ -12,17 +12,17 @@ $main-color: black;
   margin: 45px 0;
 
   .form-input {
-    background: none;
-    background-color: white;
-    color: $sub-color;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
     display: block;
     width: 100%;
-    border: none;
-    border-radius: 0;
-    border-bottom: 1px solid $sub-color;
     margin: 25px 0;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    border-bottom: 1px solid $sub-color;
+    border-radius: 0;
+    background: none;
+    background-color: white;
+    font-size: 18px;
+    color: $sub-color;
 
     &:focus {
       outline: none;
@@ -38,14 +38,14 @@ $main-color: black;
   }
 
   .form-input-label {
-    color: $sub-color;
+    position: absolute;
+    top: 10px;
+    left: 5px;
     font-size: 16px;
     font-weight: normal;
-    position: absolute;
-    pointer-events: none;
-    left: 5px;
-    top: 10px;
+    color: $sub-color;
     transition: 300ms ease all;
+    pointer-events: none;
 
     &.shrink {
       @include shrinkLabel();

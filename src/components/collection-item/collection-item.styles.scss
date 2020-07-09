@@ -1,23 +1,23 @@
 .collection-item {
-    width: 22%;
     display: flex;
     flex-direction: column;
-    height: 350px;
     align-items: center;
+    width: 22%;
+    height: 350px;
   
     .image {
       width: 100%;
       height: 95%;
-      background-size: cover;
-      background-position: center;
       margin-bottom: 5px;
+      background-position: center;
+      background-size: cover;
     }
   
     .collection-footer {
-      width: 100%;
-      height: 5%;
       display: flex;
       justify-content: space-between;
+      width: 100%;
+      height: 5%;
       font-size: 18px;
   
       .name {

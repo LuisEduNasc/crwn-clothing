@@ -3,12 +3,12 @@
 }
 
 body {
+    padding: 20px 60px;
     font-family: 'Open Sans Condensed';
     font-weight: 100;
-    padding: 20px 60px;
 }
 
 a {
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
 }
