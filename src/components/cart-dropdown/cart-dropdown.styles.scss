@@ -16,6 +16,13 @@
       overflow: scroll;
       flex-direction: column;
       height: 240px;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      
     }
   
     button {
